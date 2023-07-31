@@ -101,5 +101,5 @@ a:hover {
 
 .nav-icon {
   height: 40px;
-  color: #880088;
+  filter: invert(50%);
 }
