@@ -102,4 +102,5 @@ a:hover {
 .nav-icon {
   height: 40px;
   filter: invert(50%);
+  justify-content: space-between;
 }
