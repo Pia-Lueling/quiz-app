@@ -15,7 +15,7 @@ h1 {
   color: #ff63e9;
 }
 
-.header {
+.header-text {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
   color: #ff63e9;
@@ -39,12 +39,68 @@ main {
 
 h2 {
   font-size: 28px;
+  color: #ff63e9;
+  text-align: center;
 }
 
 p {
   font-size: 20px;
+  text-align: center;
 }
 
 .answer:hover {
   color: #880088;
+}
+
+.answer-button {
+  width: 100px;
+  color: #ff0065;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #ffecef;
+  border: 1px solid #880088;
+  border-radius: 3px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.answer-selection {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #8a00ff;
+  font-size: 16px;
+  width: 300px;
+  background-color: #ffecef;
+  border: 1px solid #880088;
+  border-radius: 3px;
+  margin: 5px;
+}
+
+.answer-selection:hover {
+  color: #ff0065;
+}
+
+footer {
+  bottom: 0;
+  background-color: #fff4f2;
+  padding: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  left: 0;
+}
+
+a {
+  color: #ff63e9;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.nav-icon {
+  height: 40px;
+  filter: invert(60%);
+  justify-content: space-between;
 }
