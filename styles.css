@@ -75,6 +75,10 @@ footer {
   background-color: #fff4f2;
   padding: 15px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  justify-content: center;
 }
 
 a {
