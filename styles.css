@@ -31,4 +31,13 @@ h1 {
 }
 
 h2 {
+  font-size: 28px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.answer:hover {
+  color: #880088;
 }
