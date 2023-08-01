@@ -104,3 +104,12 @@ a:hover {
   filter: invert(60%);
   justify-content: space-between;
 }
+
+.bookmark {
+  background-color: #fb8e63;
+  height: 40px;
+  width: 30px;
+  border-radius: 0 0 20px 20px;
+  position: absolute;
+  margin-top: -20px;
+}
