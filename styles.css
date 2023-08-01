@@ -87,7 +87,7 @@ footer {
   width: 100%;
   display: flex;
   position: fixed;
-  justify-content: center;
+  justify-content: space-around;
   left: 0;
 }
 
@@ -99,12 +99,6 @@ a:hover {
   cursor: pointer;
 }
 
-.nav-icon {
-  height: 40px;
-  filter: invert(60%);
-  justify-content: space-between;
-}
-
 .bookmark {
   background-color: #fb8e63;
   height: 40px;
@@ -112,4 +106,9 @@ a:hover {
   border-radius: 0 0 20px 20px;
   position: absolute;
   margin-top: -20px;
+}
+
+.nav-icon {
+  width: 50px;
+  filter: invert(60%);
 }
