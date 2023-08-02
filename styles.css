@@ -129,3 +129,9 @@ a:hover {
   width: 50px;
   filter: invert(60%);
 }
+
+.icon--aktiv {
+  width: 50px;
+  border-radius: 10px;
+  background-color: var(--bookmark-color);
+}
