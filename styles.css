@@ -49,7 +49,7 @@ main {
   border-radius: 10px;
   margin: 5px;
   color: var(--answer-selection-color);
-  width: 60%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -128,4 +128,12 @@ a:hover {
 .nav-icon {
   width: 50px;
   filter: invert(60%);
+  margin-top: 5px;
+}
+
+.icon--aktiv {
+  width: 50px;
+  border-radius: 10px;
+  background-color: var(--bookmark-color);
+  margin-top: 5px;
 }
