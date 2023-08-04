@@ -19,3 +19,15 @@ h1 {
   font-size: 20px;
   color: var(--header-color);
 }
+
+.profile__background {
+  background-color: #e2cff2;
+}
+
+.profile__text {
+  color: #6b51b3;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: 2px solid #6b51b3;
+  border-radius: 5px;
+}
