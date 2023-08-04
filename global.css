@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --background-header-color: #fff4f2;
+  --header-color: #ff63e9;
+  --answer-selection-color: #8a00ff;
+  --answer-button-color: #ff0065;
+  --hover-color: #880088;
+  --question-background-color: #ffdae0;
+  --bookmark-color: #fb8e63;
+}
+
+header {
+  background-color: var(--background-header-color);
+  top: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
