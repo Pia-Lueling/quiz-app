@@ -11,13 +11,3 @@
   --question-background-color: #ffdae0;
   --bookmark-color: #fb8e63;
 }
-
-header {
-  background-color: var(--background-header-color);
-  top: 0;
-  left: 0;
-  text-align: center;
-  width: 100%;
-  position: fixed;
-  z-index: 1;
-}

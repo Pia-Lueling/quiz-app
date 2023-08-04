@@ -1,0 +1,21 @@
+header {
+  background-color: var(--background-header-color);
+  top: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 60px;
+  color: var(--header-color);
+}
+
+.header-text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  color: var(--header-color);
+}

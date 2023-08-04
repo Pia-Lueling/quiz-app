@@ -4,10 +4,6 @@
 @import "components/navigation.css";
 @import "global.css";
 
-* {
-  box-sizing: border-box;
-}
-
 :root {
   --background-header-color: #fff4f2;
   --header-color: #ff63e9;

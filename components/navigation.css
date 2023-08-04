@@ -1,0 +1,40 @@
+footer {
+  bottom: 0;
+  background-color: var(--background-header-color);
+  width: 100%;
+  display: flex;
+  position: fixed;
+  justify-content: space-around;
+  left: 0;
+}
+
+a {
+  color: var(--header-color);
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.bookmark {
+  background-color: var(--bookmark-color);
+  height: 40px;
+  width: 30px;
+  border-radius: 0 0 20px 20px;
+  position: absolute;
+  top: 0;
+  left: 40px;
+}
+
+.nav-icon {
+  width: 50px;
+  filter: invert(60%);
+  margin-top: 5px;
+}
+
+.icon--aktiv {
+  width: 50px;
+  border-radius: 10px;
+  background-color: var(--bookmark-color);
+  margin-top: 5px;
+}
