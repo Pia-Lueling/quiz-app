@@ -28,13 +28,12 @@ a:hover {
 
 .nav-icon {
   width: 50px;
-  filter: invert(60%);
   margin-top: 5px;
 }
 
 .icon--aktiv {
   width: 50px;
-  border-radius: 10px;
-  background-color: var(--bookmark-color);
   margin-top: 5px;
+  border-radius: 30px;
+  border: 2px solid var(--answer-selection-color);
 }
