@@ -1,0 +1,33 @@
+form {
+  width: 90%;
+  display: grid;
+  gap: 10px;
+}
+
+fieldset {
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+  border: 2px solid pink;
+}
+
+input[type="submit"] {
+  margin: auto;
+  width: fit-content;
+}
+
+textarea {
+  width: 100%;
+}
+
+.questions—input {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: var(--answer-selection-color);
+  font-size: 20px;
+}
+
+.answers—input {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: var(--answer-selection-color);
+  font-size: 20px;
+}
