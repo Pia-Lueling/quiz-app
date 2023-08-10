@@ -33,6 +33,7 @@ a:hover {
 .nav-icon {
   width: 50px;
   margin-top: 5px;
+  background-color: var(--background-header-color);
 }
 
 .icon--aktiv {

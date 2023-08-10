@@ -7,14 +7,23 @@ buttonElement.addEventListener("click", () => {
 const answerButton = document.querySelector("[data-js=answer-button]");
 const answerCard = document.querySelector("[data-js=card__answer]");
 
-function textAnswerButton(text) {
-  if (text !== "Show answer") {
-    return "Show answer";
-  }
-  return "Hide answer";
-}
+// function textAnswerButton(text) {
+//   if (text !== "Show answer") {
+//     return "Show answer";
+//   }
+//   return "Hide answer";
+// }
+
+// answerButton.addEventListener("click", () => {
+//   answerCard.classList.toggle("card__answer--active");
+//   answerButton.innerHTML = textAnswerButton(answerButton.innerHTML);
+// });
 
 answerButton.addEventListener("click", () => {
   answerCard.classList.toggle("card__answer--active");
-  answerButton.innerHTML = textAnswerButton(answerButton.innerHTML);
+  if (answerCard.classList.contains("card__answer--active")) {
+    answerButton.textContent = "Hide Answer";
+  } else {
+    answerButton.textContent = "Show Answer";
+  }
 });
