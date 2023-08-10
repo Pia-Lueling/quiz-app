@@ -26,6 +26,10 @@ a:hover {
   left: 40px;
 }
 
+.bookmark--active {
+  background-color: #ffff00;
+}
+
 .nav-icon {
   width: 50px;
   margin-top: 5px;
