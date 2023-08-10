@@ -60,3 +60,7 @@ p {
 .answer-selection:hover {
   color: var(--answer-button-color);
 }
+
+.card__answer--active {
+  display: block;
+}
